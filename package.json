@@ -1,0 +1,25 @@
+{
+  "name": "ginassets",
+  "version": "1.0.0",
+  "description": "Assets used in GinStudio",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "prepublish": "rimraf ./dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatcaygame/ginassets.git"
+  },
+  "author": "Vu Minh Nhat, GinStudio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhatcaygame/ginassets/issues"
+  },
+  "homepage": "https://github.com/nhatcaygame/ginassets#readme",
+  "dependencies": {
+    "@types/node": "^16.11.12",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.2"
+  }
+}
